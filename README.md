@@ -73,7 +73,7 @@ JWT_SECRET=d0ef47f671584ffb40b472ce5a264f90cc893b0fba6fe219b926533c11fac0a191622
 ## Setup Instructions
 ### 1. Clone the repository
 ```sh
-git clone https://github.com/your-username/event-management-system.git
+git clone [https://github.com/your-username/event-management-system.git](https://github.com/Varunnn99/event-booking/)
 cd event-management-system
 ```
 
@@ -85,7 +85,6 @@ npm install
 ```
 #### Frontend
 ```sh
-cd frontend
 npm install
 ```
 
@@ -101,8 +100,7 @@ node server.js
 
 ### 5. Run the Frontend
 ```sh
-cd frontend
-npm start
+npm run dev
 ```
 
 ## How to Use
