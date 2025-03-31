@@ -1,0 +1,105 @@
+.login-container {
+    width: 500px;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 24px;
+    margin: 40px auto;
+    border: 1px solid var(--primary-color);
+  }
+  
+  .login-container h2 {
+    font-size: 24px;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  .login-container label {
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+  
+  .login-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 6px;
+    font-size: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .login-container button {
+    padding: 12px 28px;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: rgb(9, 140, 16);
+  }
+  
+  .toggle-text {
+    color: var(--primary-color);
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .toggle-text:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .login-wrapper {
+    width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: auto;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-wrapper form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-wrapper input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .login-wrapper button {
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .login-wrapper button:hover {
+    background-color: #218838;
+  }
+  

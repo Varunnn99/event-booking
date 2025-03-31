@@ -1,0 +1,73 @@
+/* Push the MyCart page below the navbar */
+.mycart-container {
+    margin-top: 10px; /* Adjust based on navbar height */
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style MyCart heading */
+  .mycart-container h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+/* Ensure MyCart is positioned below Navigation */
+.cart-container {
+    margin-top: 80px; /* Adjust based on Navigation height */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Adds spacing between cart items */
+    align-items: center;
+  }
+  
+  /* Styling for buttons */
+  .cart-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Space between buttons */
+    margin-top: 20px;
+  }
+  
+  /* Existing button styles */
+  .clear-cart-btn {
+    background-color: orange;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  .cart-item button {
+    margin-top: 10px;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .clear-cart-btn:hover {
+    background-color: darkorange;
+  }
+  
+  .proceed-btn {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s ease;
+  }
+  
+  .proceed-btn:hover {
+    background-color: darkgreen;
+  }
+  
