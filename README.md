@@ -65,7 +65,7 @@ The `.env` file should contain:
 PORT=5000
 DB_HOST=localhost
 DB_USER=root
-DB_PASSWORD=your_password
+DB_PASSWORD=
 DB_NAME=event_booking
 JWT_SECRET=d0ef47f671584ffb40b472ce5a264f90cc893b0fba6fe219b926533c11fac0a19162284eac6960b2e2c0b242b6da14916baacb4aad02317f62aab82849066d7f
 ```
@@ -113,10 +113,30 @@ npm start
 5. View purchased tickets in "My Events".
 
 ## Screenshots
-(You can add screenshots here)
+### Login Page
+![Login](screenshotss/LOGIN.png)
+
+### Home Page
+![Home](screenshotss/home.png)
+
+### Find Events Page
+![Find Events](screenshotss/findevents.png)
+
+### Event Description
+![Event Description](screenshotss/eventdesc.png)
+
+### My Cart Page
+![My Cart](screenshotss/mycart.png)
+
+### Checkout Page
+![Checkout](screenshotss/checkout.png)
+
+### My Events Page
+![My Events](screenshotss/myevents.png)
 
 ## Future Enhancements
 - Add actual payment integration.
 - Improve UI/UX.
 - Deploy the application.
+
 
